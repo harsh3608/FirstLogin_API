@@ -10,4 +10,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstLogin.Core\FirstLogin.Core.csproj" />
+    <ProjectReference Include="..\FirstLogin.Infrastructure\FirstLogin.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
