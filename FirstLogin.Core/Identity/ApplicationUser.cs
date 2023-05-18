@@ -11,6 +11,6 @@ namespace FirstLogin.Core.Identity
     public class ApplicationUser: IdentityUser<Guid>
     {
         public string? PersonName { get; set; }
-        public GenderOptions Gender { get; set; }
+        public string? Gender { get; set; }
     }
 }
