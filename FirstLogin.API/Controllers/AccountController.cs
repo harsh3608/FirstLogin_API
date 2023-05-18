@@ -59,7 +59,8 @@ namespace FirstLogin.API.Controllers
                 Email = registerDTO.Email,
                 PhoneNumber = registerDTO.PhoneNumber,
                 UserName = registerDTO.Email,
-                PersonName = registerDTO.PersonName
+                PersonName = registerDTO.PersonName,
+                Gender = registerDTO.Gender,
             };
 
             IdentityResult result = await _userManager.CreateAsync(user, registerDTO.Password);
