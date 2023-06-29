@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using FirstLogin.Core.ServiceContracts;
 using FirstLogin.Core.Services;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 

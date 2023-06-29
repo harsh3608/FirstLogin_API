@@ -32,10 +32,7 @@ namespace FirstLogin.API.Controllers
         //public async Task<ActionResult<ApplicationUser>> RegisterUser(RegisterDTO registerDTO)
         {
             ResponseDTO<AuthenticationResponse> response = new ResponseDTO<AuthenticationResponse>();
-            int StatusCode = 0;
-            bool isSuccess = false;
-            string Response = null;
-            string Message = "";
+            
 
             //Validation
             if (ModelState.IsValid == false)
